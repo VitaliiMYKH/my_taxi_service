@@ -23,6 +23,7 @@ public class LoginController extends HttpServlet {
         req.getRequestDispatcher("/WEB-INF/views/login/login.jsp").forward(req, resp);
 
     }
+
     @Override
     public void init(ServletConfig config) throws ServletException {
         super.init(config);
